@@ -1,0 +1,39 @@
+* {
+    font-family: Helvetica;
+  }
+  
+  body {
+    background-color: #359e40;
+    margin: 0;
+    height: 0;
+
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 500px;
+    gap: 4em 1em;
+    height: 700px;
+    justify-content: center;
+
+  }
+
+.card{
+    width: 310px;
+    height: auto;
+    display: inline-block;
+    background-color: #262c3a;
+    border-radius: 15px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    width: 300px;
+    height: 200px;
+}
