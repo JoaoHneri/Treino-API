@@ -20,10 +20,11 @@
   }
 
 .card{
+  padding: 1.8em;
     width: 310px;
     height: auto;
     display: inline-block;
-    background-color: #262c3a;
+    background-color: #fff;
     border-radius: 15px;
 }
 
